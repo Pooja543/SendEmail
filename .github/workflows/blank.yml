@@ -15,7 +15,7 @@ jobs:
              
       - name: Send mail
         if: always()
-        uses: action-send-mail@v2/github-script
+        uses: SendEmail/action-send-mail@v2
         with:
          # mail server settings
          server_address: smtp.gmail.com
